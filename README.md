@@ -1,82 +1,45 @@
-<!----------------------------------------------------------------------->
+<!---------------------------------------------->
 
 <a name="readme-top"></a>
 
-<!----------------------------------------------------------------------->
+<!---------------------------------------------->
 
-<table width="100%" style="border: none;">
-  <tr>
-    <td align="left" style="border: none;"><b>LE GOURRIEREC Titouan</b></td>
-    <td align="left" style="border: none;"></td>
-    <td align="right" style="border: none;">
-      <a href="https://www.linkedin.com/in/titouanlegourrierec"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-      <a href="mailto:titouanlegourrieræec@icloud.com"><img src="https://img.shields.io/badge/email-%23339933.svg?style=for-the-badge&logo=mail.ru&logoColor=white" alt="Mail"></a>
-    </td>
-  </tr>
-</table>
+<h1 align="center">
+  <br>
+  easilastik
+  <br>
+</h1>
 
-<!----------------------------------------------------------------------->
+<h4 align="center">Easy integration of Ilastik segmentation models in Python.</h4>
 
-<!----------------------------------------------------------------------->
-
-<!-- PROJECT LOGO -->
-
-<br />
-<div align="center">
-  <h3 align="center">EasIlastik </h3>
+<!---------------------------------------------->
 
 <p align="center">
-    A package to facilitate the use of image segmentation model trained on Ilastik in Python
-    <br />
-    <a href="https://github.com/titouanlegourrierec/EasIlastik/wiki"><strong>Explore the docs »</strong></a>
-    <br />
-    <a href="https://github.com/titouanlegourrierec/EasIlastik/issues">Report a bug · Request Feature</a>
-  </p>
-  <p align="center">
-    <a href="https://pypi.org/project/EasIlastik/">
-      <img src="https://img.shields.io/pypi/v/EasIlastik.svg" alt="PyPI Version">
-    </a>
-    </a>
-        <a href="https://pepy.tech/projects/easilastik">
-      <img src="https://static.pepy.tech/badge/easilastik" alt="Downloads">
-    </a>
-    <a href="https://github.com/psf/black">
-      <img src="https://img.shields.io/badge/code%20style-black-000000.svg" alt="Code Style: Black">
-    </a>
-    <a href="https://github.com/titouanlegourrierec/EasIlastik/blob/main/LICENSE">
-      <img src="https://img.shields.io/github/license/titouanlegourrierec/EasIlastik.svg" alt="License">
-  </p>
-</div>
+  <a href="https://pypi.org/project/easilastik/">
+  <img src="https://img.shields.io/pypi/v/easilastik.svg"
+    alt="PyPI Version">
+  </a>
+  <a href="https://github.com/titouanlegourrierec/easilastik/blob/main/LICENSE">
+  <img src="https://img.shields.io/badge/License-MIT-green.svg"
+    alt="MIT License">
+  </a>
+  <a href="https://github.com/titouanlegourrierec/easilastik/actions/workflows/ci.yml">
+  <img src="https://github.com/titouanlegourrierec/easilastik/actions/workflows/ci.yml/badge.svg"
+    alt="CI status">
+  </a>
+  <a href="https://github.com/astral-sh/ruff">
+  <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json"
+    alt="Code Style: Ruff">
+  </a>
+  <a href="https://github.com/astral-sh/ty">
+  <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ty/main/assets/badge/v0.json"
+    alt="Type Checking: Ty">
+  </a>
+</p>
 
-<!-- TABLE OF CONTENTS -->
+<!---------------------------------------------->
 
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project 📖</a>
-      <ul>
-        <li><a href="#built-with">Built With 🛠️</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
-
-<!----------------------------------------------------------------------->
-
-<!----------------------------------------------------------------------->
-
-## About The Project
+## 🌄 Overview
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/titouanlegourrierec/EasIlastik/main/assets/img.png" width="100%">
@@ -84,23 +47,9 @@
 
 This package provides seamless integration of pre-trained image segmentation models from Ilastik into Python workflows, empowering users with efficient and intuitive image segmentation capabilities for diverse applications.
 
-<!----------------------------------------------------------------------->
+<!---------------------------------------------->
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-<!----------------------------------------------------------------------->
-
-### Built With
-
-- [![Python][python-badge]][python-url]
-- [![OpenCV][opencv-badge]][opencv-url]
-- ![Shell Script][shellscript-badge]
-
-<!----------------------------------------------------------------------->
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-<!----------------------------------------------------------------------->
-
-## Getting Started
+## 🚀 Getting Started
 
 ### Prerequisites
 
@@ -110,12 +59,19 @@ This package provides seamless integration of pre-trained image segmentation mod
 
 - To train your own model on Ilastik and properly adjust the different parameters, please refer to [this documentation](https://github.com/titouanlegourrierec/EasIlastik/wiki/Train-a-model-on-Ilastik).
 
-<!----------------------------------------------------------------------->
+<!---------------------------------------------->
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-<!----------------------------------------------------------------------->
+## 📦 Installation
 
-## Usage
+To install `easilastik`, run the following command:
+
+```bash
+pip install easilastik
+```
+
+<!---------------------------------------------->
+
+## 🛠️ Usage
 
 For usage examples of this package, please refer to the [Example Notebook](https://github.com/titouanlegourrierec/EasIlastik/blob/1be43ebb76bccec6917e05367fbb7e48b184efdc/Examples/example-notebook.ipynb).
 
@@ -180,78 +136,18 @@ EasIlastik.run_ilastik_probabilities(input_path = "path/to/input/folder",
   <img src="https://raw.githubusercontent.com/titouanlegourrierec/EasIlastik/main/assets/run_ilastik_run_probabilities.png" alt="run_ilastik_probabilities" width="70%">
 </p>
 
-<!----------------------------------------------------------------------->
+<!---------------------------------------------->
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-<!----------------------------------------------------------------------->
+## ⚖️ License
 
-<!-- ROADMAP -->
+Elevatr is licensed under the **GNU General Public License v3.0**. This means that you are free to use, modify, and distribute this software, but any derivative works must also be licensed under the same terms. For more details, please refer to the [LICENSE](LICENSE) file.
 
-<!-- ## Roadmap
+<!---------------------------------------------->
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
+<p align="right"><a href="#readme-top">back to top</a></p>
+<!---------------------------------------------->
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
+______________________________________________________________________
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
-
-<!-- CONTRIBUTING -->
-
-<!-- ## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
-
-## License
-
-Distributed under the GNU License like the Ilastik software. See [`LICENSE`](https://github.com/titouanlegourrierec/EasIlastik/blob/1be43ebb76bccec6917e05367fbb7e48b184efdc/LICENCE) for more information.
-
-<!----------------------------------------------------------------------->
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-<!----------------------------------------------------------------------->
-
-## Contact
-
-LE GOURRIEREC Titouan - [titouanlegourrierec@icloud.com](mailto:titouanlegourrierec@icloud.com)
-
-Repository Link: [https://github.com/titouanlegourrierec/EasIlastik](https://github.com/titouanlegourrierec/EasIlastik)
-Pypi Link : [https://pypi.org/project/EasIlastik/](https://pypi.org/project/EasIlastik/)
-
-<!----------------------------------------------------------------------->
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-<!----------------------------------------------------------------------->
-
-## Acknowledgments
-
-- [Ilastik Software](https://www.ilastik.org) : An interactive interface to annotate images to segment.
-
-<!----------------------------------------------------------------------->
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-<!----------------------------------------------------------------------->
-
-<!-- MARKDOWN LINKS & IMAGES -->
-
-[opencv-badge]: https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white
-[opencv-url]: https://opencv.org
-[python-badge]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
-[python-url]: https://www.python.org
-[shellscript-badge]: https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white
+> GitHub [@titouanlegourrierec](https://github.com/titouanlegourrierec)  ·
+> Email [titouanlegourrierec@icloud.com](mailto:titouanlegourrierec@icloud.com)
