@@ -1,5 +1,7 @@
 .PHONY: lint format typecheck quality clean
 
+all: quality precommit clean
+
 SRC=easilastik
 
 lint:
