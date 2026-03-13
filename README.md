@@ -124,7 +124,7 @@ For usage examples of this package, please refer to the [Example Notebook](https
 ```python
 EasIlastik.run_ilastik(input_path = "path/to/your/image.jpg", # The path of the image to process
                        model_path = "path/to/your/model.ilp",
-                       result_base_path = "path/to/your/output/folder/",
+                       result_base_path = "path/to/your/output/folder",
                        export_source = "Simple Segmentation",
                        output_format = "png")
 ```
@@ -138,7 +138,7 @@ EasIlastik.run_ilastik(input_path = "path/to/your/image.jpg", # The path of the 
 ```python
 EasIlastik.run_ilastik(input_path = "path/to/input/folder", # The path of the folder to process
                        model_path = "path/to/your/model.ilp",
-                       result_base_path = "path/to/your/output/folder/",
+                       result_base_path = "path/to/your/output/folder",
                        export_source = "Simple Segmentation",
                        output_format = "png")
 ```

@@ -127,9 +127,11 @@ def run_ilastik(
         )
         raise ValueError(msg)
 
+    result_base_dir = Path(result_base_path)
+
     # Check if result_base_path exists, if not, create it
-    if not Path(result_base_path).exists():
-        Path(result_base_path).mkdir(parents=True, exist_ok=True)
+    if not result_base_dir.exists():
+        result_base_dir.mkdir(parents=True, exist_ok=True)
 
     # Check if input_path is a directory or a file
     if Path(input_path).is_dir():
@@ -145,7 +147,7 @@ def run_ilastik(
         "--project=" + model_path,
         "--export_source=" + export_source,
         "--output_format=" + output_format,
-        "--output_filename_format=" + result_base_path + "{nickname}_" + export_source.replace(" ", "_"),
+        "--output_filename_format=" + str(result_base_dir / f"{{nickname}}_{export_source.replace(' ', '_')}"),
         *image_arg,
     ]
 
